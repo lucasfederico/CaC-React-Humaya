@@ -10,8 +10,6 @@
 /* SECCION DULCE DEL ALMA */
 .dulce-del-alma{
     color: #fff;
-    display: flex;
-    align-items: flex-end;
     background-image: url(../images/Central/imagenCentral.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,6 +19,9 @@
     padding: 1rem 0;
 }
 /* SECCION PRODUCTOS */
+.titulo-principal{
+    background-color: #495057;
+}
 .productos{
     color: #fff;
 }
@@ -34,4 +35,29 @@
 .producto-1-background{
     height: 50vh;
     background-color: black;
+}
+.producto-2{
+    height: 50vh;
+    background: url(../images/Productos/bonus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.producto-3{
+    height: 50vh;
+    background: url(../images/Productos/Producto3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.producto-4{
+    height: 50vh;
+    background-color: #D5AB8B;
+}
+.producto-4 img{
+    width: 50%;
+}
+.producto-4-background{
+    height: 50vh;
+    background-color: #D5AB8B;
 }
