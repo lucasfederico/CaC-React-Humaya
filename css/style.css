@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 /* Header */
 .mi-header{
@@ -52,12 +54,22 @@
 }
 .producto-4{
     height: 50vh;
-    background-color: #D5AB8B;
+    background-color: #a68a64;
 }
 .producto-4 img{
     width: 50%;
 }
 .producto-4-background{
     height: 50vh;
-    background-color: #D5AB8B;
+    background-color: #a68a64;
+}
+/* SECCION CALIDAD */
+.calidad{
+    background-color: black;
+}
+.calidad h2{
+    color: white;
+}
+.img-calidad{
+    width: 100%;
 }

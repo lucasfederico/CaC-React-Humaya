@@ -3,4 +3,46 @@
 }
 .frascos-color{
     color: #dda15e;
+    font-weight: bold;
+}
+.boton-color{
+    font-weight: bold;
+    color: #dda15e;
+    border-color: #dda15e;
+    border: solid 2px;
+}
+.boton-color:hover{
+    color: black;
+    background-color: #dda15e;
+    border: #dda15e solid 2px;
+}
+.boton-color:active{
+    color: black !important;
+    background-color: #dda15e !important;
+    border: #dda15e solid 2px !important;
+}
+
+/* PRODUCTO 4 */
+.titulos-color-1{
+    color: #582f0e;
+}
+.frascos-color-1{
+    color: #582f0e;
+    font-weight: bold;
+}
+.boton-color-1{
+    font-weight: bold;
+    color: #582f0e;
+    border-color: #582f0e;
+    border: solid 2px;
+}
+.boton-color-1:hover{
+    color: white;
+    background-color: #582f0e;
+    border: #582f0e solid 2px;
+}
+.boton-color-1:active{
+    color: white !important;
+    background-color: #582f0e !important;
+    border: #582f0e solid 2px !important;
 }
