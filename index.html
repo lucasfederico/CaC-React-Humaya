@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- MIS ESTILOS CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/colores.css">
+    <link rel="icon" href="images/Logo/HsinDulce100x100.png" type="image/x-icon">
     <title>Humaya</title>
 </head>
 <body>
-    <header class="text-center mi-header">
+    <header class="text-center mi-header" id="home">
             <nav class="navbar navbar-expand-lg ">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"><img src="images/Logo/LogoHumaya100x100.png" alt=""></a>
@@ -46,7 +50,7 @@
           </div>
         </div>
       </section>
-        <section class="container-fluid text-center productos">
+        <section class="container-fluid text-center productos" id="productos">
           <div class="row p-3 titulo-principal">
             <h2>PRODUCTOS</h2>
           </div>
@@ -73,7 +77,7 @@
             <div class="row">
                 <div class="col-sm-12 col-lg-6 producto-3">
                 </div>
-                <div class="col-sm-12 col-lg-6 px-5 producto-1-background d-flex flex-column align-items-center justify-content-center">
+                <div class="col-sm-12 col-lg-6  producto-1-background d-flex flex-column align-items-center justify-content-center">
                   <h3 class="titulos-color">DULCE CHOCONUTT</h3>
                   <p>Elaboración artesanal para el capricho dulce, cominación de dulce de leche, chocolate y pasta de avellanas. Una delica única</p>
                   <p class="frascos-color">Presentación en frasco de vidrio de 580gr y 280gr</p>
@@ -84,7 +88,7 @@
                 <div class="col-sm-12 col-lg-6 order-lg-last producto-4 d-flex align-items-center justify-content-center">
                   <img src="images/Productos/Producto-4-.png" alt="">
                 </div>
-                <div class="col-sm-12 col-lg-6 order-lg-first px-5 producto-4-background d-flex flex-column align-items-center justify-content-center">
+                <div class="col-sm-12 col-lg-6 order-lg-first  producto-4-background d-flex flex-column align-items-center justify-content-center">
                   <h3 class="titulos-color-1">ALFAJORES DE MAICENA</h3>
                   <p>Alfajores de dulce con coco rallado, relleno con 2cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
                   <p class="frascos-color-1">Presentación en caja de 6 y 12 alfajores</p>
@@ -92,7 +96,7 @@
                 </div>
             </div>
         </section>
-        <section class="container-fluid text-center calidad py-5">
+        <section class="container-fluid text-center calidad py-5" id="calidad">
           <div class="row justify-content-center">
             <div class="col-sm-12 py-2">
               <h2>La mejor calidad para vos</h2>
@@ -102,29 +106,23 @@
             </div>
           </div>
         </section>
-        <section class="container-fluid text-center contacto py-3">
-          <form action="" class="row g-3">
-            <div class="col-sm-12 col-lg-6 offset-lg-3">
-              <p class="frascos-color">Déjanos tu consulta y nuestro personal se pondrá en contacto a la brevedad</p>
+        <section class="container-fluid text-center contacto " id="contacto">
+          <div class="row">
+            <div class="d-none d-sm-block col-lg-5 contacto-img">
             </div>
-            <div class="col-sm-12 col-lg-6 offset-lg-3 ">
-              <label class="form-label" for="name-input">NOMBRE</label>
-              <input class="form-control" type="name" name="" id="name-input">
-            </div>
-            <div class="col-sm-12 col-lg-6 offset-lg-3">
-              <label class="form-label" for="email-input">EMAIL</label>
-              <input class="form-control" type="email" name="" id="email-input">
-            </div>
-            <div class="col-sm-12 col-lg-6 offset-lg-3 ">
-              <label class="form-label " for="consulta-input">CONSULTA</label><br>
-              <textarea name="" id="consulta-input" cols="28" rows="3"></textarea>
-            </div>
-            <div class="col-sm-12 col-lg-6 offset-lg-3">
-              <button type="button" class="btn btn-outline-primary boton-color">+INFO</button>
-            </div>
-          </form>
+            <form action="" class="col-lg-3 offset-lg-2 py-4 formulario">
+                <p class="frascos-color">Déjanos tu consulta y nuestro personal se pondrá en contacto a la brevedad</p>
+                <label class="form-label" for="name-input">NOMBRE</label>
+                <input class="form-control" type="name" name="" id="name-input">
+                <label class="form-label" for="email-input">EMAIL</label>
+                <input class="form-control" type="email" name="" id="email-input">
+                <label class="form-label " for="consulta-input">CONSULTA</label><br>
+                <textarea name="" id="consulta-input" cols="28" rows="3"></textarea>
+                <button type="button" class="btn btn-outline-primary boton-color">ENVIAR</button>
+            </form>
+          </div>
         </section>
-        <section class="container-fluid text-center recetas py-5">
+        <section class="container-fluid text-center recetas pb-5">
           <div class="row">
             <div class="col-sm-12 col-lg-12 py-2">
               <h2>Recetas</h2>
@@ -152,5 +150,38 @@
           </div>
         </section>
     </main>
+    <footer class="container-fluid text-center py-2">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>Encontranos en:</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 d-flex align-items-center justify-content-center">
+          <img class="d-none d-sm-block logo-footer" src="images/Logo/LogoHumaya100x100.png" alt="">
+        </div>
+        <div class="d-none d-sm-block col-lg-3">
+          <h3 class=" titulos-color">Menú</h3>
+          <div class="d-flex justify-content-evenly lg-6-column ">
+            <a class="" href="#inicio">Home</a>
+            <a href="#productos">Productos</a>
+            <a href="#calidad">Calidad</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-3 order-lg-last">
+          <h3 class="titulos-color">Ubicación</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0392292867527!2d-58.370521100000005!3d-34.6537122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1693086476798!5m2!1ses-419!2sar" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-sm-12 col-lg-3">
+          <h3 class="titulos-color">Redes</h3>
+          <div class="d-flex justify-content-evenly lg-6-column">
+            <a href="#"><i class="bi bi-instagram icon-lg"></i></a>
+            <a href="#"><i class="bi bi-facebook icon-lg"></i></a>
+            <a href="#"><i class="bi bi-tiktok icon-lg"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>

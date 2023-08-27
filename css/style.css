@@ -21,7 +21,7 @@
 }
 /* SECCION PRODUCTOS */
 .titulo-principal{
-    background-color: #495057;
+    background-color: #333030;
 }
 .productos{
     color: #fff;
@@ -74,8 +74,16 @@
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-color: #495057;
+    background-color: #333030;
     color: #fff;
+}
+.contacto-img{
+    height: 66vh;
+    background: url(../images/Contacto/contacto-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 /* SECCION RECETAS */
 .recetas{
@@ -87,4 +95,33 @@
 }
 .recetas-img{
     width: 100%;
+}
+/* SECCION FOOTER */
+footer{
+    background-color: #333030;
+    color: #fff;
+}
+.logo-footer{
+    width: 50%;
+    height: 50%;
+}
+.lg-6-column a{
+    text-decoration: none;
+    color: #fff;
+}
+@media (min-width: 992px) {
+    .lg-6-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around !important;
+        height: 85%;
+    }
+}
+.icon-lg{
+    font-size: 25px;
+}
+@media (min-width: 992px) {
+    .icon-lg {
+        font-size: 40px; /* Tamaño original */
+    }
 }
