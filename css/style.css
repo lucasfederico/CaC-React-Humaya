@@ -6,8 +6,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* Header */
-.mi-header{
-    background-color: chocolate;
+
+.logo-principal{
+    width: 50%;
 }
 /* SECCION DULCE DEL ALMA */
 .dulce-del-alma{
@@ -21,7 +22,7 @@
 }
 /* SECCION PRODUCTOS */
 .titulo-principal{
-    background-color: #333030;
+    background-color: #212529;
 }
 .productos{
     color: #fff;
@@ -74,7 +75,7 @@
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-color: #333030;
+    background-color: #212529;
     color: #fff;
 }
 .contacto-img{
@@ -98,7 +99,7 @@
 }
 /* SECCION FOOTER */
 footer{
-    background-color: #333030;
+    background-color:#212529;
     color: #fff;
 }
 .logo-footer{
