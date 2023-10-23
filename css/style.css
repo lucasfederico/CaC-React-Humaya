@@ -8,7 +8,21 @@
 /* Header */
 
 .logo-principal{
-    width: 50%;
+    width: auto;
+    height: 50px;
+}
+.nav-item{
+    transition: all .3s ease-out;
+}
+.nav-item:hover{
+    background-color: #dda15e;
+}
+.nav-link{
+    transition: all .3s ease-out;
+}
+.nav-link:hover{
+    color: #582f0e;
+    font-weight: bold;
 }
 /* SECCION DULCE DEL ALMA */
 .dulce-del-alma{
@@ -111,6 +125,13 @@ footer{
     color: #fff;
 }
 @media (min-width: 992px) {
+    
+    .nav-item:hover{
+        background-color: transparent;
+    }
+    .nav-link:hover{
+        color: white;
+    }
     .lg-6-column {
         display: flex;
         flex-direction: column;
